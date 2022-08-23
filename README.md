@@ -45,12 +45,12 @@
   - Android studio
   - Visual studio
   
-7) 공부 중! (with 김영한 멘토님)
+7) 스터디
   - Java Spring + Gradle (완)
   - JPA (완)
   - Spring Data JPA (완)
   - H2 (완)
-  - QueryDSL (미완)
+  - QueryDSL (완)
 
 ~~~
   
@@ -247,5 +247,15 @@
 - 결과물 : https://github.com/James-Jeong/jFileManager
 - 기술 스택
   - Language : C
+~~~
+  
+### 6) RTSP
+~~~  
+- 목적 : RTSP 기능 개발 및 테스트를 위한 서버 제작
+- 결과물
+  - RTP : https://github.com/mAgNi-J/JRTSP_RTP
+  - HLS : https://github.com/mAgNi-J/JRTSP_HLS
+- 기술 스택
+  - Language : Java
 ~~~
   
