@@ -58,7 +58,7 @@
 ### 1) FlyingChicken 안드로이드 게임 개발
 ~~~
 - C# 및 유니티 게임 엔진 스터디 용으로 직접 안드로이드 게임 개발
-- 결과물 : https://github.com/James-Jeong/FlyingChicken
+- 결과물 : https://github.com/KKukkie/FlyingChicken
 - 기간 : 2016.08 ~ 2016.10
 - 기술 스택
   - Tool : Unity Engine
@@ -72,7 +72,7 @@
 - 프로젝트명 : Scabox
 - 프로젝트 참여 인원 : 4
 - 프로젝트 참여 포지션 : 팀장
-- 결과물 : https://github.com/James-Jeong/Hanium_project_19P389
+- 결과물 : https://github.com/KKukkie/Hanium_project_19P389
 - 기간 : 2019.04 ~ 2019.12
 - 기술 스택
   - Platform : Arduino, RaspberryPI
@@ -93,7 +93,7 @@
 - 프로젝트명 : Make montage images for find criminals
 - 프로젝트 참여 인원 : 3
 - 프로젝트 참여 포지션 : 팀장
-- 결과물 : https://github.com/James-Jeong/DCGAN_Montage_2018.6.26
+- 결과물 : https://github.com/KKukkie/DCGAN_Montage_2018.6.26
 - 기간 : 2018.01 ~ 2018.11
 - 기술 스택
   - OS : Ubuntu Linux 18.04
@@ -116,7 +116,7 @@
 - 프로젝트명 : DragonFist
 - 프로젝트 참여 인원 : 6
 - 프로젝트 참여 포지션 : 팀원
-- 결과물 : https://github.com/James-Jeong/DragonFist
+- 결과물 : https://github.com/KKukkie/DragonFist
 - 기간 : 2019.09 ~ 2019.12
 - 기술 스택
   - Language : C#
@@ -179,8 +179,8 @@
   - 배포 환경 : Centos7
   - 기술 스택 : MPEG-DASH, RTMP, HTTP
   - Message Middleware : RabbitMQ, Apache Kafka
-  - Scheduler: https://github.com/James-Jeong/jscheduler
-  - FSM: https://github.com/James-Jeong/JFSM
+  - Scheduler: https://github.com/KKukkie/jscheduler
+  - FSM: https://github.com/KKukkie/JFSM
 ~~~
   
 ### 10) 감성 인지 API 서버 개발
@@ -228,7 +228,7 @@
 ### 3) FSM
 ~~~
 - 목적 : State 기반의 비즈니스 로직이 필요할 때 사용하기 위해 제작
-- 결과물 : https://github.com/James-Jeong/JFSM
+- 결과물 : https://github.com/KKukkie/JFSM
 - 기술 스택
   - Language : Java
 ~~~
@@ -236,7 +236,7 @@
 ### 4) Scheduler
 ~~~
 - 목적 : 효율적인 멀티 쓰레딩 작업을 수행하기 위해 제작
-- 결과물 : https://github.com/James-Jeong/jscheduler
+- 결과물 : https://github.com/KKukkie/jscheduler
 - 기술 스택
   - Language : Java
 ~~~
@@ -244,7 +244,7 @@
 ### 5) FileManager
 ~~~
 - 목적 : 파일 IO 공통 기능 모듈 제작
-- 결과물 : https://github.com/James-Jeong/jFileManager
+- 결과물 : https://github.com/KKukkie/jFileManager
 - 기술 스택
   - Language : C
 ~~~
@@ -253,8 +253,8 @@
 ~~~  
 - 목적 : RTSP 기능 개발 및 테스트를 위한 서버 제작
 - 결과물
-  - RTP : https://github.com/mAgNi-J/JRTSP_RTP
-  - HLS : https://github.com/mAgNi-J/JRTSP_HLS
+  - RTP : https://github.com/KKukkie/JRTSP_RTP
+  - HLS : https://github.com/KKukkie/JRTSP_HLS
 - 기술 스택
   - Language : Java
 ~~~
