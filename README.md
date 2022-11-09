@@ -197,6 +197,7 @@
 ### 11) Auto CI-CD 플랫폼 구축
 ~~~
 - 기간 : 202206 ~ 202208
+- 프로젝트 참여 인원 : 1
 - 프로젝트 참여 포지션 : 팀원
 - 기술 스택
   1. VNF
@@ -205,6 +206,23 @@
   2. CNF
     - CI : Jenkins, Git, Maven, RPM
     - CD : AWS EC2, Terraform, Kubernetes, Docker
+    
+
+### 12) WebRtc to RTSP Gateway 서버 개발
+~~~
+- 기간 : 202209 ~ 202211
+- 프로젝트 참여 인원 : 1
+- 프로젝트 참여 포지션 : 팀원
+- 결과물 : https://github.com/KKukkie/jrtsp_gw
+- 기술 스택
+  1. WebRTC
+  2. RTSP
+  3. Java 11
+  4. Linux
+- 개발한 기능
+  1. 사용자가 OvenMediaEngine 서버에 등록된 WebRTC 스트림을 RTSP 를 통해 전달 받을 수 있다.
+  2. RestAPI 를 통해서 운용자가 GW 의 시스템 리소스 사용량 또는 세션 정보를 모니터링할 수 있다.
+
 ~~~
   
 ## 📍 혼자 만들어본 라이브러리
