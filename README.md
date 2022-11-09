@@ -206,7 +206,7 @@
   2. CNF
     - CI : Jenkins, Git, Maven, RPM
     - CD : AWS EC2, Terraform, Kubernetes, Docker
-    
+~~~    
 
 ### 12) WebRtc to RTSP Gateway 서버 개발
 ~~~
@@ -222,7 +222,6 @@
 - 개발한 기능
   1. 사용자가 OvenMediaEngine 서버에 등록된 WebRTC 스트림을 RTSP 를 통해 전달 받을 수 있다.
   2. RestAPI 를 통해서 운용자가 GW 의 시스템 리소스 사용량 또는 세션 정보를 모니터링할 수 있다.
-
 ~~~
   
 ## 📍 혼자 만들어본 라이브러리
