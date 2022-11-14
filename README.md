@@ -13,7 +13,6 @@
   - C
   - Python
   - Shell script
-  - C#
 
 2) 배포 환경
   - Linux
