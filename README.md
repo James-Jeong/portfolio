@@ -10,6 +10,7 @@
 ~~~
 1) 프로그래밍 언어
   - Java (8, 11)
+    > Spring boot + Data JPA
   - C
   - Python
   - Shell script
@@ -43,13 +44,6 @@
   - VIM
   - Android studio
   - Visual studio
-  
-7) 스터디
-  - Java Spring + Gradle (완)
-  - JPA (완)
-  - Spring Data JPA (완)
-  - H2 (완)
-  - QueryDSL (완)
 
 ~~~
   
