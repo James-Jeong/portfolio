@@ -9,8 +9,8 @@
 ## 🍓 기술
 ~~~
 1) 프로그래밍 언어
-  - Java (8, 11)
-    > Spring boot + Data JPA
+  - Java (8, 11, 17)
+    > Spring boot + Data JPA (+querydsl)
   - C
   - Python
   - Shell script
