@@ -2,17 +2,15 @@
   
 ## 🔥 소개
 ~~~
-안녕하세요! 열정적으로 C, JAVA 를 통해 다양한 API 서버를 개발하고 있는 정동욱입니다.
-서버 프로그램이 뿐만 아니라 CI-CD 에도 관심이 많은 백엔드 개발자입니다!
+JAVA 를 통해 다양한 API 서버를 개발하고 있습니다.
+CI-CD 에도 관심이 많은 DevOps + 백엔드 개발자입니다.
 ~~~
 
 ## 🍓 기술
 ~~~
 1) 프로그래밍 언어
   - Java (8, 11, 17)
-    > Spring boot + Data JPA (+querydsl)
-  - C
-  - Python
+    > Spring boot + Data JPA (+querydsl), MyBatis
   - Shell script
 
 2) 배포 환경
@@ -26,6 +24,8 @@
     - MySQL
     - MariaDB
     - SQLITE
+  - NO-SQL
+    - REDIS
 
 4) 메세지 미들웨어
   - Apache kafka
@@ -34,33 +34,24 @@
 5) CI/CD
   - Jenkins
   - GIT
-  - BitBucket
   - Terraform
-  - Kubernetes, Docker
+  - Kubernetes, Docker(+compose)
   - Openstack
 
-6) IDE
+6) Cloud
+  - AWS
+  - Azure
+  - NCP
+
+7) IDE
   - Intellij IDEA
   - VIM
-  - Android studio
-  - Visual studio
 
 ~~~
   
 ## 📍 프로젝트
-### 1) FlyingChicken 안드로이드 게임 개발
-~~~
-- C# 및 유니티 게임 엔진 스터디 용으로 직접 안드로이드 게임 개발
-- 결과물 : https://github.com/KKukkie/FlyingChicken
-- 기간 : 2016.08 ~ 2016.10
-- 기술 스택
-  - Tool : Unity Engine
-  - Language : C#, SQLITE
-- 느낀점 및 트러블슈팅
-  1. C# 언어와 유니티 엔진을 처음 경험하게 된 계기가 되었고, 진짜 프로그램을 처음 만들어봐서 여러가지로 부족한 부분이 많았지만, 여러가지의 예외 상황들, 필요한 추가 기능 개발을 경험함으로써 부족한 부분을 하나씩 알게되는 좋은 경험이 되었습니다.
-~~~
   
-### 2) 한이음 프로젝트 : 빅데이터 기반 자동 스마트홈 시스템
+### 1) 한이음 프로젝트 : 빅데이터 기반 자동 스마트홈 시스템
 ~~~
 - 프로젝트명 : Scabox
 - 프로젝트 참여 인원 : 4
@@ -81,7 +72,7 @@
   2. 스마트 홈 시스템을 직접 만들어보니 하드웨어와 소프트웨어 융합 기술이 얼마나 구현하기 어려운지 몸소 깨닫게 되었고, 프로젝트 수행 도중에 하드웨어 이슈(센서 고장, 전선 끊어짐 등)에 대한 트러블이 있었으나 팀원들을 잘 고무시켜 해결할 수 있었습니다.
 ~~~
   
-### 3) 졸업 논문 : 범죄자 식별을 위한 몽타주 그리기
+### 2) 졸업 논문 : 범죄자 식별을 위한 몽타주 그리기
 ~~~
 - 프로젝트명 : Make montage images for find criminals
 - 프로젝트 참여 인원 : 3
@@ -104,7 +95,7 @@
   2. 이미지 학습곽 관련하여 학습 모델 선택에 어려움을 겪었으나 많은 서적 리딩과 구글링을 통해서 이미지 학습에 적합한 모델인 DCGAN 을 선택하게 되었습니다.
 ~~~
   
-### 4) BoB 프로젝트 : 유니티 게임 취약점 진단 툴
+### 3) BoB 프로젝트 : 유니티 게임 취약점 진단 툴
 ~~~
 - 프로젝트명 : DragonFist
 - 프로젝트 참여 인원 : 6
@@ -120,7 +111,7 @@
   1. GUI 폼을 사용한 프로그램 제작이 생각보다 쉽지 않음을 느꼈습니다. 버튼을 누를 때마다 트리거되는 기능들을 각 상황에 맞게 GUI 로 어떻게 하면 잘 표현해야할까 하는 고민들을 많이 해보게 되는 경험이었습니다.
 ~~~
   
-### 5) SKB 녹취 서버 개발
+### 4) SKB 녹취 서버 개발
 ~~~
 1. 개요
 - 이동 통신 통화 서비스 중에 서비스 사용자(발신, 착신)의 음성을 녹취하는 서비스를 제공하는 프로젝트
@@ -148,7 +139,7 @@
 https://biz.skbroadband.com/page.do?menu_id=P01030300)
 ~~~
   
-### 6) SKT 보이스뷰 누구콜 미디어 서버 개발
+### 5) SKT 보이스뷰 누구콜 미디어 서버 개발
 ~~~
 1. 개요
 - 고객과 AI, AI 중계를 통한 고객과 상담사 간의 미디어 릴레이 서비스를 제공하는 프로젝트
@@ -174,7 +165,7 @@ https://biz.skbroadband.com/page.do?menu_id=P01030300)
 URL: https://www.hankyung.com/society/article/202207184325Y)
 ~~~
   
-### 7) 가상 공연 플랫폼 미디어 서버 개발
+### 6) 가상 공연 플랫폼 미디어 서버 개발
 ~~~
 1. 개요
 - 메타버스(metaverse)를 통한 공연자의 가상 공연을 스트리밍하는 서비스를 개발하는 프로젝트
@@ -199,7 +190,7 @@ URL: https://www.hankyung.com/society/article/202207184325Y)
 - 실시간 서비스를 위해 낮은 지연율 확보를 위한 서버 성능과 JVM 성능 튜닝 기술 및 JProfiler 도구를 통해서 시스템 리소스(힙 메모리 사용량 및 cpu 점유율 등)을 모니터링하는 역량 강화
 ~~~
   
-### 8) Auto CI-CD 플랫폼 구축
+### 7) Auto CI-CD 플랫폼 구축
 ~~~
 1. 개요
 - 여러 서비스 중인 프로젝트의 CI-CD 를 VNF (Virtual Network Function) 환경과 CNF 환경에서 자동화하는 플랫폼을 설계하고 개발하는 프로젝트
@@ -215,7 +206,7 @@ URL: https://www.hankyung.com/society/article/202207184325Y)
     > CI & CD 결과를 각 과정 종료 시 마다 Slack 프로그램의 특정 채널에 공지
     > 망 구성은 두 장비의 PNF 의 물리 네트워크 인터페이스(NIC) 을 유선 연결하여 Provider Network 를 통해 망 구성하였고, orchestration 은 userdata (cloud-init) 을 사용
 
-- CNF 플랫폼에서는 CI 주체는 Jenkins, CD 주체는Kubernetes 로 구성
+- CNF 플랫폼에서는 CI 주체는 Jenkins, CD 주체는 Kubernetes 로 구성
     > CI 와 CD 주체는 모두 개별적인 AWS EC2 인스턴스로 구성
     > CI 노드(Master node)는 Jenkins 에 의해 CI 를 진행하고, CD 노드(Worker node) 로 CD 요청을 전송
         >>  CD 요청을 전송하기 전에 Terraform을 사용하여 CD 노드로 사용될 AWS EC2 인스턴스를 새로 생성 후 Provisioning 수행
@@ -228,7 +219,7 @@ URL: https://www.hankyung.com/society/article/202207184325Y)
 - 또한 어플리케이션(소프트웨어) 레벨에 머물러 있는 것이 아니라 하드웨어 레벨까지 접근하여 실제 네트워크 망도 제어해볼 수 있는 좋은 경험을 하게 됨.
 ~~~    
 
-### 9) WebRtc to RTSP Gateway 서버 개발 (감성 인지 미디어 릴레이 서버)
+### 8) WebRtc to RTSP Gateway 서버 개발 (감성 인지 미디어 릴레이 서버)
 ~~~
 1. 개요
 - 학생과 교사가 원격으로 수업하기 위한 플랫폼에서 교사가 송출하는 소스 미디어 서버로 부터 중간에서 미디어를 학생들에게 릴레이하는 서버
