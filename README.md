@@ -236,7 +236,7 @@ https://mongle.com
 ~~~
 - 목적 : C 프로그램 개발 시 TDD 적용하여 개발하기 위해 제작
 - 기간 : 2020.06 ~ 2020.09
-- 결과물 : https://github.com/James-Jeong/ttlib
+- 결과물 : https://github.com/Samuel-Jeong/ttlib
 - 기술 스택
   - Language : C
 ~~~
@@ -244,7 +244,7 @@ https://mongle.com
 ### 2) Network framework
 ~~~
 - 목적 : Posix network 코드와 Netty Framework 를 참고하여 체계적인 네트워크 코딩하기 위해 제작
-- 결과물 : https://github.com/James-Jeong/java_network_base_framework
+- 결과물 : https://github.com/Samuel-Jeong/java_network_base_framework
 - 기술 스택
   - Language : Java
 ~~~
@@ -252,7 +252,7 @@ https://mongle.com
 ### 3) FSM
 ~~~
 - 목적 : State 기반의 비즈니스 로직이 필요할 때 사용하기 위해 제작
-- 결과물 : https://github.com/KKukkie/JFSM
+- 결과물 : https://github.com/Samuel-Jeong/JFSM
 - 기술 스택
   - Language : Java
 ~~~
@@ -260,7 +260,7 @@ https://mongle.com
 ### 4) Scheduler
 ~~~
 - 목적 : 효율적인 멀티 쓰레딩 작업을 수행하기 위해 제작
-- 결과물 : https://github.com/KKukkie/jscheduler
+- 결과물 : https://github.com/Samuel-Jeong/jscheduler
 - 기술 스택
   - Language : Java
 ~~~
@@ -268,7 +268,7 @@ https://mongle.com
 ### 5) FileManager
 ~~~
 - 목적 : 파일 IO 공통 기능 모듈 제작
-- 결과물 : https://github.com/KKukkie/jFileManager
+- 결과물 : https://github.com/Samuel-Jeong/jFileManager
 - 기술 스택
   - Language : C
 ~~~
@@ -277,8 +277,8 @@ https://mongle.com
 ~~~  
 - 목적 : RTSP 기능 개발 및 테스트를 위한 서버 제작
 - 결과물
-  - RTP : https://github.com/KKukkie/JRTSP_RTP
-  - HLS : https://github.com/KKukkie/JRTSP_HLS
+  - RTP : https://github.com/Samuel-Jeong/JRTSP_RTP
+  - HLS : https://github.com/Samuel-Jeong/JRTSP_HLS
 - 기술 스택
   - Language : Java
 ~~~
@@ -286,7 +286,7 @@ https://mongle.com
 ### 7) DTLS
 ~~~  
 - 목적 : DTLS 기능 개발 및 테스트
-- 결과물 : https://github.com/KKukkie/JDTLS
+- 결과물 : https://github.com/Samuel-Jeong/JDTLS
 - 기술 스택
   - Language : Java
 ~~~
