@@ -34,9 +34,7 @@ CI-CD 에도 관심이 많은 DevOps + 백엔드 개발자입니다.
 5) CI/CD
   - Jenkins
   - GIT
-  - Terraform
-  - Kubernetes, Docker(+compose)
-  - Openstack
+  - Docker(+compose)
 
 6) Cloud
   - AWS
