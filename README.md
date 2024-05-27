@@ -130,36 +130,7 @@ URL: https://www.hankyung.com/society/article/202207184325Y)
 - 실시간 서비스를 위해 낮은 지연율 확보를 위한 서버 성능과 JVM 성능 튜닝 기술 및 JProfiler 도구를 통해서 시스템 리소스(힙 메모리 사용량 및 cpu 점유율 등)을 모니터링하는 역량 강화
 ~~~
   
-### 4) Auto CI-CD 플랫폼 구축
-~~~
-1. 개요
-- 여러 서비스 중인 프로젝트의 CI-CD 를 VNF (Virtual Network Function) 환경과 CNF 환경에서 자동화하는 플랫폼을 설계하고 개발하는 프로젝트
-
-2. 기간
-- 2022.06~2022.09(4개월)
-
-3. 기술 및 성장 파트
-- VNF 플랫폼에서는 CI 주체는 Jenkins, CD 주체는 Openstack 으로 플랫폼을 구성
-    > 두 개의 장비를 통해 하나는 Controller, 하나는 Compute 장비로 설정
-    > Compute 장비의 Jenkins 에서 작업자의 CI-CD Request 를 전달받아 CI 를 진행
-    > Controller 로 오픈스택 명령어를 통해 CD Notification 메세지를 보내서 Controller 로 하여금 Compute 로 CD 명령을 내려 Compute 장비에서 VM 인스턴스를 생성하고 패키지 배포 및 테스트, 검증을 수행하는 시스템을 제작
-    > CI & CD 결과를 각 과정 종료 시 마다 Slack 프로그램의 특정 채널에 공지
-    > 망 구성은 두 장비의 PNF 의 물리 네트워크 인터페이스(NIC) 을 유선 연결하여 Provider Network 를 통해 망 구성하였고, orchestration 은 userdata (cloud-init) 을 사용
-
-- CNF 플랫폼에서는 CI 주체는 Jenkins, CD 주체는 Kubernetes 로 구성
-    > CI 와 CD 주체는 모두 개별적인 AWS EC2 인스턴스로 구성
-    > CI 노드(Master node)는 Jenkins 에 의해 CI 를 진행하고, CD 노드(Worker node) 로 CD 요청을 전송
-        >>  CD 요청을 전송하기 전에 Terraform을 사용하여 CD 노드로 사용될 AWS EC2 인스턴스를 새로 생성 후 Provisioning 수행
-    > 인스턴스 Provisioning 후에 K8S를 통하여 Docker 생성 및 패키지 배포하여 기본적인 유닛 테스트 후에 검증하는 것까지 진행
-    > CI & CD 결과를 각 과정 종료 시 마다 Slack 프로그램의 특정 채널에 공지
-
-4. 성과 및 성장 포인트
-- 팀에서 개발 및 유지 보수 중인 프로젝트들의 CI-CD 를 자동화할 수 있도록 기여
-- 개발 뿐만 아니라 패키지 형상 유지 관리 및 배포도 중요하다는 것을 배우는 계기가 됨.
-- 또한 어플리케이션(소프트웨어) 레벨에 머물러 있는 것이 아니라 하드웨어 레벨까지 접근하여 실제 네트워크 망도 제어해볼 수 있는 좋은 경험을 하게 됨.
-~~~    
-
-### 5) WebRtc to RTSP Gateway 서버 개발 (감성 인지 미디어 릴레이 서버)
+### 4) WebRtc to RTSP Gateway 서버 개발 (감성 인지 미디어 릴레이 서버)
 ~~~
 1. 개요
 - 학생과 교사가 원격으로 수업하기 위한 플랫폼에서 교사가 송출하는 소스 미디어 서버로 부터 중간에서 미디어를 학생들에게 릴레이하는 서버
@@ -179,7 +150,7 @@ URL: https://www.hankyung.com/society/article/202207184325Y)
 - 대용량 트래픽 서비스에 대응하기 위해 시스템 자원의 효율적인 사용 및 성능 최적화 역량 강화
 ~~~
   
-### 6) AEIT 서비스 개발
+### 5) AEIT 서비스 개발
 ~~~
 1. 서비스 개요
 - 마이데이터 중개 플랫폼
@@ -205,7 +176,7 @@ https://aeit.io
 - 다양한 플랫폼(웹, 모바일 등) 간 통신을 위한 API 개발을 위해 플랫폼에 독립적인 알고리즘 및 인터페이스 개발 경험
 ~~~
   
-### 7) MONGLE 서비스 개발
+### 6) MONGLE 서비스 개발
 ~~~
 1. 서비스 개요
 - 숏폼 동영상 공유 및 쇼핑몰 플랫폼
